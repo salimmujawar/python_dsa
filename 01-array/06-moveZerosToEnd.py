@@ -13,6 +13,7 @@ def moveZerosToEnd(arr):
   tmp = 0
   for i in range(len(arr)):
     if arr[i] != 0:
+      #Python swap in one line
       arr[nonZeroCount], arr[i] = arr[i], arr[nonZeroCount]      
       nonZeroCount += 1
   return arr
