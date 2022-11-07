@@ -1,4 +1,4 @@
-#Left Rotate By One
+#Left Rotate Array By One
 
 #Input Array
 
